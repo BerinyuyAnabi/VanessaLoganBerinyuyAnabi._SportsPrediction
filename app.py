@@ -5,7 +5,7 @@ from urllib.request import urlopen
 import datetime
 
 
-model_path = 'best_grad_model.pkl'  # Adjust the path as per your file location
+model_path = 'best_xgboost_model.pkl'  # Adjust the path as per your file location
 with open(model_path, 'rb') as f:
     loaded_model = pickle.load(f)
 
